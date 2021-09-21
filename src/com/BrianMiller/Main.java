@@ -10,8 +10,7 @@ public class Main {
 
         PC myPC = new PC(theCase, theMonitor, theMotherboard);
 
-        myPC.getMotherboard().loadProgram("Windows 1.0");
-        myPC.getMonitor().drawPicxelAt(12, 34, "Blue");
+        myPC.powerUp();
     }
 
 }
